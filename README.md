@@ -8,26 +8,14 @@ A self-hosted companion tool for Workspace ONE UEM: bulk QR-based Android Enterp
 
 ## Free QR generator — no install needed
 
-**[Open the QR generator](https://franeksoftsf.github.io/WS1QRGen/)**
+**[Open the QR generator](https://franeksoftsf.github.io/WSOQRGenerator/)** · [source](https://github.com/franekSoftSF/WSOQRGenerator)
 
-A single-page tool that builds Android Enterprise device-owner provisioning QR codes. Free, no
-account, no install — and everything happens in your browser: nothing is uploaded, stored or
-logged, and the page keeps working after you save it to disk.
+A separate, free single-page tool that builds Android Enterprise device-owner provisioning QR
+codes — for the Workspace ONE UEM custom DPC flow and for Android Management API enrollment
+tokens. No account, no install, and everything happens in the browser: nothing is uploaded,
+stored or logged.
 
-- **Workspace ONE UEM** — server, Group ID and an optional staging account, or token-based
-  registration where the token travels in the Group ID field
-- **Enrollment URL shortcut** — paste a link carrying `serverurl` and `gid` from your
-  console and the fields fill themselves
-- **Android Management API** — from an enrollment token, or from a ready-made payload your console
-  or the API handed you
-- **WiFi left to the device** — by default the code carries no network settings, so the device shows
-  its own picker and the WiFi password never ends up in the QR code. Embedding the network is still
-  one dropdown away
-- **Locale and time zone** from the full Android lists, with search
-- **Save and reload your settings**, print an instruction sheet for whoever does the enrolling, and
-  download the code as PNG
-
-The tool covers a single device at a time. Bulk enrollment from CSV, day-2 actions and migration
+It covers a single device at a time. Bulk enrollment from CSV, day-2 actions and migration
 between consoles are what the installable application below is for.
 
 ## What it does
