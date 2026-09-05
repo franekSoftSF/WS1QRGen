@@ -16,8 +16,8 @@ logged, and the page keeps working after you save it to disk.
 
 - **Workspace ONE UEM** — server, Group ID and an optional staging account, or token-based
   registration where the token travels in the Group ID field
-- **Enrollment URL shortcut** — paste a / link from your console and the fields
-  fill themselves
+- **Enrollment URL shortcut** — paste a link carrying `serverurl` and `gid` from your
+  console and the fields fill themselves
 - **Android Management API** — from an enrollment token, or from a ready-made payload your console
   or the API handed you
 - **WiFi left to the device** — by default the code carries no network settings, so the device shows
