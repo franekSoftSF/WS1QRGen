@@ -6,6 +6,30 @@ A self-hosted companion tool for Workspace ONE UEM: bulk QR-based Android Enterp
 
 > **Note:** This repository hosts installer releases only. The source code is maintained in a private repository. See the [Releases](../../releases) tab for downloadable installer packages.
 
+## Free QR generator — no install needed
+
+**[Open the QR generator](https://franeksoftsf.github.io/WS1QRGen/)**
+
+A single-page tool that builds Android Enterprise device-owner provisioning QR codes. Free, no
+account, no install — and everything happens in your browser: nothing is uploaded, stored or
+logged, and the page keeps working after you save it to disk.
+
+- **Workspace ONE UEM** — server, Group ID and an optional staging account, or token-based
+  registration where the token travels in the Group ID field
+- **Enrollment URL shortcut** — paste a / link from your console and the fields
+  fill themselves
+- **Android Management API** — from an enrollment token, or from a ready-made payload your console
+  or the API handed you
+- **WiFi left to the device** — by default the code carries no network settings, so the device shows
+  its own picker and the WiFi password never ends up in the QR code. Embedding the network is still
+  one dropdown away
+- **Locale and time zone** from the full Android lists, with search
+- **Save and reload your settings**, print an instruction sheet for whoever does the enrolling, and
+  download the code as PNG
+
+The tool covers a single device at a time. Bulk enrollment from CSV, day-2 actions and migration
+between consoles are what the installable application below is for.
+
 ## What it does
 
 - **QR provisioning** — generate Android Enterprise enrollment codes per device, from a single admin panel or bulk CSV import
